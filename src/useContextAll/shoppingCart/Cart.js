@@ -20,7 +20,7 @@ const Cart = () => {
             <Typography variant="h4" gutterBottom>
                 Shopping Cart
             </Typography>
-
+            {cart.length}
             {cart.length === 0 ? (
                 <Typography>Your cart is empty.</Typography>
             ) : (
